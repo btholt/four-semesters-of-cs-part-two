@@ -1,0 +1,9 @@
+.index {
+  width: 97%;
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.index .jumbotron {
+}

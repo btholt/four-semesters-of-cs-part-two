@@ -1,0 +1,38 @@
+{
+  "name": "four-semesters-of-cs-part-two",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Brian Holt <btholt+4cs@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "gatsby": "^1.9.145",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-remark-images": "^1.5.36",
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-remark": "^1.7.28"
+  },
+  "keywords": ["gatsby"],
+  "license": "Apache 2.0",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "prettier": "^1.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btholt/four-semesters-of-cs-part-two.git"
+  },
+  "bugs": {
+    "url": "https://github.com/btholt/four-semesters-of-cs-part-two/issues"
+  },
+  "homepage": "https://github.com/btholt/four-semesters-of-cs-part-two#readme"
+}
