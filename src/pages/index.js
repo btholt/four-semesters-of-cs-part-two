@@ -1,22 +1,39 @@
 import React from "react";
-import LessonCard from "../components/LessonCard";
+import Card from "../components/TOCCard";
 import Link from "gatsby-link";
 
 import "./index.css";
 
-const IndexPage = () => (
-  <div className="index">
-    <div className="jumbotron gradient">
-      <h1>4 Semesters of CS in 5 Hours</h1>
-      <h2>Part II</h2>
-    </div>
+const IndexPage = props =>
+  console.log(props) || (
+    <div className="index">
+      <div className="jumbotron gradient">
+        <h1>4 Semesters of CS in 5 Hours</h1>
+        <h2>Part II</h2>
+      </div>
 
-    <LessonCard
-      title="Bloom Filters"
-      content="Bloom filters are cool"
-      id="bloom-filters"
-    />
-  </div>
-);
+      <Card
+        title="Table of Contents"
+        content={props.data.allMarkdownRemark.edges}
+      />
+    </div>
+  );
+
+export const pageQuery = graphql`
+  query HomepageTOC {
+    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___order] }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            order
+            path
+            title
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default IndexPage;

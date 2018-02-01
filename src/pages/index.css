@@ -1,3 +1,7 @@
+body {
+  background-color: #ddd;
+}
+
 .index {
   width: 97%;
   max-width: 750px;
