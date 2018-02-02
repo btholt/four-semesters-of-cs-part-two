@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`
+    title: `4 Semesters of Computer Science Part 2`
   },
+  pathPrefix: "/four-semesters-of-cs-part-two",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

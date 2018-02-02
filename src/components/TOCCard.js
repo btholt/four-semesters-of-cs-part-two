@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "gatsby-link";
 
 import "./TOCCard.css";
 
@@ -9,9 +10,9 @@ const LessonCard = ({ content, title }) => (
       <ol>
         {content.map(lesson => (
           <li key={lesson.node.frontmatter.path}>
-            <a href={lesson.node.frontmatter.path}>
+            <Link to={lesson.node.frontmatter.path}>
               {lesson.node.frontmatter.title}
-            </a>
+            </Link>
           </li>
         ))}
       </ol>
