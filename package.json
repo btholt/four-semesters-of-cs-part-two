@@ -11,17 +11,18 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-remark-images": "^1.5.36",
     "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.28"
+    "gatsby-transformer-remark": "^1.7.28",
+    "gh-pages": "^1.1.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "Apache 2.0",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
+    "deploy": "npm -s run build && gh-pages -d ./public -b master",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
