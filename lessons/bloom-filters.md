@@ -1,7 +1,7 @@
 ---
 title: "Bloom Filters"
 path: "/bloom-filters"
-order: 2
+order: 1
 ---
 
 Bloom filters are an interesting data structure which are designed to tell you quickly and efficiently if an item is in a set. If you need a reminder of what a set is, see the previous course. In exchange for being really fast and memory efficient, bloom filters trade off the fact that it can't tell you definitely if an item is in the set; it can only tell you definitely that item is **not** in the set. Stated differently, bloom filters have a false positive rate but do not have false negatives.

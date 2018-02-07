@@ -1,7 +1,7 @@
 ---
 title: "Radix Sort"
 path: "/radix-sort"
-order: 2
+order: 9
 ---
 
 Pathfinding!

@@ -1,7 +1,7 @@
 ---
 title: "Tree Traversals"
 path: "/tree-traversals"
-order: 1
+order: 2
 ---
 
 Trees are an essential part of storing data, or at computer scientists like to refer them as, data structures. Among their benefits is that they're optimized to be searchable. Occasionally you need to serialize the entire tree into a flat data structure. Today we'll show you how to do that.

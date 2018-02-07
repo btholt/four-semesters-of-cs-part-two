@@ -1,7 +1,7 @@
 ---
 title: "Heap Sort"
 path: "/heap-sort"
-order: 2
+order: 8
 ---
 
 Pathfinding!

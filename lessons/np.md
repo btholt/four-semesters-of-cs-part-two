@@ -1,7 +1,7 @@
 ---
 title: "NP"
 path: "/np"
-order: 20
+order: 10
 ---
 
 NP!

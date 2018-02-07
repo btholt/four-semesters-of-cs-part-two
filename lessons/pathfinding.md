@@ -1,7 +1,7 @@
 ---
 title: "Pathfinding"
 path: "/pathfinding"
-order: 2
+order: 3
 ---
 
 Let's take what we've learned and go a step further. Imagine you have a 6 by 6 grid. You have point A at [1,1] and point B at [2,6]. ([0, 0] is top left.)
