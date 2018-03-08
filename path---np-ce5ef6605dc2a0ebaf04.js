@@ -1,2 +1,0 @@
-webpackJsonp([0xff423912b33c],{316:function(t,a){t.exports={data:{markdownRemark:{html:"<p>NP!</p>",frontmatter:{path:"/np",title:"NP"}}},pathContext:{}}}});
-//# sourceMappingURL=path---np-ce5ef6605dc2a0ebaf04.js.map
