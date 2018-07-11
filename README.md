@@ -1,3 +1,2 @@
-# Under Construction
-
-Under active development. Feel free to peruse but nothing is guaranteed to be correct, correctly cited, or anything of the sort. Catch this workshop at ForwardJS 2018 or in May on FrontendMasters.com
+[Course Website](https://btholt.github.io/four-semesters-of-cs-part-two/)
+[Videos (Frontend Masters)](https://frontendmasters.com/courses/computer-science-2/)

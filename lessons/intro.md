@@ -4,7 +4,7 @@ path: "/intro"
 order: 0
 ---
 
-Welcome back to the course 4 Semesters of Computer Science in 5 Hours! This is part two in the series. While these courses are not required to take in order and certainly you can take them out of order, I'd suggest you give a once-over to the [first one in the series][first] as well. These concepts I would judge to be a bit more advanced than what was contained in the first and it'd be good to jog those through your memory.
+Welcome back to the course 4 Semesters of Computer Science in 5 Hours! This is part two in the series. You can follow along with the videos for both [Part 1][part1] and [Part 2][part2] on Frontend Masters (see [all my courses here][brianfem]). While these courses are not required to take in order and certainly you can take them out of order, I'd suggest you give a once-over to the [first one in the series][first] as well. These concepts I would judge to be a bit more advanced than what was contained in the first and it'd be good to jog those through your memory.
 
 So why are we here? For me, I'm a college drop-out. As soon as I realized I could have an employer pay me to learn instead of paying a university to do it, I was out of there! The unfortunate part of that is there are some things that your job will likely never teach you. A job is (normally, yours may be different and that's cool if so) typically require you to write features and ship bug fixes; in other words, you're not typically given time to learn about NP-Complete problems or to diagram how a heap sort is going to work. The issue that arises given that is that when it does come time to have complex operations that make use of these loftier CS concepts, they're just not in your toolbox and that sucks.
 
@@ -14,10 +14,13 @@ This course is in JavaScript. This is because I'm writing it and I know JavaScri
 
 Lastly, much of what I'm telling you is from my own education and largely thanks to the book [Cormen's Algorithms][cormen]. This book is pricy and really dry but if you understand everything in it, you'll go really far. At some point I'd suggest taking the month(s) to tackle it.
 
-Thank you for reading/watching the course! Please open pull requests for anything wrong you see, star the repo and hit me up on Twitter with your thoughts!
+Thank you for reading/watching the course! Please open pull requests for anything wrong you see, star the repo and [hit me up on Twitter][twitter] with your thoughts!
 
+[brianfem]: https://frontendmasters.com/teachers/brian-holt/
+[part1]: https://frontendmasters.com/courses/computer-science/
+[part2]: https://frontendmasters.com/courses/computer-science-2/
 [first]: https://btholt.github.io/four-semesters-of-cs/
 [books]: https://smile.amazon.com/You-Dont-Know-Js-Book/dp/B01AY9P0P6
-[courses]: https://frontendmasters.com/courses/javascript-basics/
+[courses]: https://frontendmasters.com/teachers/kyle-simpson/
 [cormen]: https://smile.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
 [twitter]: https://www.twitter.com/holtbt

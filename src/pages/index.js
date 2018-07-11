@@ -9,7 +9,7 @@ const IndexPage = props =>
     <div className="index">
       <div className="jumbotron gradient">
         <h1>4 Semesters of CS in 5 Hours</h1>
-        <h2>Part II</h2>
+        <h2>Part II - View the <a href="https://frontendmasters.com/courses/computer-science-2/">Videos on Frontend Masters</a></h2>
       </div>
 
       <Card
