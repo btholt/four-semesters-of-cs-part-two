@@ -6,7 +6,7 @@ order: 1
 
 Bloom filters are an interesting data structure which are designed to tell you quickly and efficiently if an item is in a set. If you need a reminder of what a set is, see the previous course. In exchange for being really fast and memory efficient, bloom filters trade off the fact that it can't tell you definitely if an item is in the set; it can only tell you definitely that item is **not** in the set. Stated differently, bloom filters have a false positive rate but do not have false negatives.
 
-Why is that useful? Sometimes you don't care about false positives, you just want to make sure something is _not_ in the set. [Medium][medium] has a great article on what they use bloom filters for: they use them to filter out artciles they don't want to show you in their recommendations, whether those are items you've read before or things they've recommended too many times. What about that false positive rate? Well, they'll just filter out something they could have shown you and then show you something they definitely can show you. It's an acceptable trade off.
+Why is that useful? Sometimes you don't care about false positives, you just want to make sure something is _not_ in the set. [Medium][medium] has a great article on what they use bloom filters for: they use them to filter out articles they don't want to show you in their recommendations, whether those are items you've read before or things they've recommended too many times. What about that false positive rate? Well, they'll just filter out something they could have shown you and then show you something they definitely can show you. It's an acceptable trade off.
 
 Check out [Wikipedia][wiki] for some more examples of applications.
 
