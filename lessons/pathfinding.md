@@ -65,7 +65,7 @@ We'll do this until we intersect the two spirals. As soon as the spiral intersec
 
 ```
 2 1 2 • • •
-1 A 1 • • •
+1 A 1 2 • •
 2 1 2 • • •
 • X X X X X
 • • 1 • • •
