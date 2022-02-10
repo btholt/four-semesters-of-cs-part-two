@@ -1,7 +1,7 @@
 ---
 title: "Searching for an Element in an Array"
 path: "/search"
-order: 7
+order: 8
 ---
 
 This is a bit of a glaring omission from part one but we're going to fix it now: searching! This very similar to sorting, as you'll quickly figure out. Search is the act of looking for a particular element in an array.

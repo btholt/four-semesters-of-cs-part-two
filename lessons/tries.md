@@ -1,7 +1,7 @@
 ---
 title: "Tries"
 path: "/tries"
-order: 6
+order: 7
 ---
 
 First of all, let's make sure you're saying this word correctly. The word "trie" is a play on the fact that this particular data structure makes it easy to re**trie**ve data, so trie is said just like it is there, tree. However, because tries and trees are often discussed together, you'll here people call them "tries" (as in the plural try) or try to disambiguate them in other methods. Good luck.

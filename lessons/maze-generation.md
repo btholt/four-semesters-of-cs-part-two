@@ -1,7 +1,7 @@
 ---
 title: "Generating a Maze"
 path: "/maze-generation"
-order: 5
+order: 6
 ---
 
 We're going back to working on mazes but with slightly different twist. With pathfinding we were trying to find the shortest path between point A and point B. In this lesson we're going to be trying to generate a random and curvy maze. I find this to be a pretty fun exercise.

@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 path: "/intro"
-order: 0
+order: 1
 ---
 
 Welcome back to the course 4 Semesters of Computer Science in 5 Hours! This is part two in the series. You can follow along with the videos for both [Part 1][part1] and [Part 2][part2] on Frontend Masters (see [all my courses here][brianfem]). While these courses are not required to take in order and certainly you can take them out of order, I'd suggest you give a once-over to the [first one in the series][first] as well. These concepts I would judge to be a bit more advanced than what was contained in the first and it'd be good to jog those through your memory.

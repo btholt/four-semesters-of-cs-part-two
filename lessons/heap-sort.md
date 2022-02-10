@@ -1,7 +1,7 @@
 ---
 title: "Heap Sort"
 path: "/heap-sort"
-order: 8
+order: 9
 ---
 
 Back to sorting! Part 1 covers a lot of sorting algorithms and we're going to cover two more here. The first one we're going to deal with heap sort, a very clever algorithm based on trees.

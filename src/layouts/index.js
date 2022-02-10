@@ -1,43 +1,58 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
+import { graphql, StaticQuery } from "gatsby";
 
 import "bootstrap/dist/css/bootstrap.css";
+import "prismjs/themes/prism-solarizedlight.css";
+import "code-mirror-themes/themes/monokai.css";
 import "./index.css";
 
-const Header = () => (
-  <div className="navbar navbar-light gradient">
-    <Link to="/" className="navbar-brand">
-      4 Semesters of Computer Science in 5 Hours, Part II
-    </Link>
-  </div>
-);
+const TemplateWrapper = props => (
+  <StaticQuery
+    render={data => (
+      <div>
+        <Helmet
+          title={data.site.siteMetadata.title}
+          meta={[
+            {
+              name: "description",
+              content: data.site.siteMetadata.description
+            },
+            {
+              name: "keywords",
+              content: data.site.siteMetadata.keywords.join(", ")
+            }
+          ]}
+        />
+        <div className="navbar navbar-light gradient">
+          <Link to="/" className="navbar-brand">
+            {data.site.siteMetadata.title}
+          </Link>
 
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="4 Semesters of Computer Science in 5 Hours, Part II"
-      meta={[
-        {
-          name: "description",
-          content:
-            "Learn the basics of Computer Science in Five Hours using JavaScript!"
-        },
-        {
-          name: "keywords",
-          content:
-            "computer science, javascript, cs, bloom filters, algorithms, sorting"
+          <h3 class="button">
+            <a href="https://frontendmasters.com/courses/computer-science-2/">
+              <span class="mobile-hidden">4 Semesters of Computer Science</span> Videos
+              <span class="icon">&nbsp;▶️&nbsp;</span>
+            </a>
+          </h3>
+        </div>
+        <div className="main">{props.children}</div>
+      </div>
+    )}
+    query={graphql`
+      {
+        site {
+          siteMetadata {
+            title
+            subtitle
+            description
+            keywords
+          }
         }
-      ]}
-    />
-    <Header />
-    <div className="main">{children()}</div>
-  </div>
+      }
+    `}
+  />
 );
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
 
 export default TemplateWrapper;

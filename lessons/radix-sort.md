@@ -1,7 +1,7 @@
 ---
 title: "Radix Sort"
 path: "/radix-sort"
-order: 9
+order: 10
 ---
 
 Radix sorting enters us into a new frontier of sorting that we haven't talked about: non-comparison based sorting. Up to this point _all_ of the sorts we've talked about in both courses have been comparison based sorts. That is to say, we decide the order of the numbers based on asking the question is this element bigger than that one over-and-over again until numbers are in order and the rest of the algorithm is just optimizing how often we ask that question. The big O of these comparison based algorithms cannot be any faster `n log n` so in order to get beyond that, we have to change what we're doing. We have to sort based on other criteria.

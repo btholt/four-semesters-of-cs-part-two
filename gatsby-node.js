@@ -1,9 +1,9 @@
 const path = require("path");
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
-  const blogPostTemplate = path.resolve(`src/templates/blogTemplate.js`);
+  const lessonTemplate = path.resolve(`src/templates/lessonTemplate.js`);
 
   return graphql(`
     {
@@ -26,7 +26,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       }
     }
   `).then(result => {
-    console.log(result);
     if (result.errors) {
       return Promise.reject(result.errors);
     }
@@ -34,7 +33,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
-        component: blogPostTemplate
+        component: lessonTemplate
       });
     });
   });
