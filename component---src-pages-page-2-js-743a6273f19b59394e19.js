@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfour_semesters_of_cs_part_two=self.webpackChunkfour_semesters_of_cs_part_two||[]).push([[617],{4948:function(e,t,o){o.r(t);var r=o(7294),a=o(8759);t.default=function(){return r.createElement("div",null,r.createElement("h1",null,"Hi from the second page"),r.createElement("p",null,"Welcome to page 2"),r.createElement(a.default,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-page-2-js-743a6273f19b59394e19.js.map
